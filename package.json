@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "nodemon --exec ts-node src/modules/server/server.ts"
+  },
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "agendash": "^4.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.0",
+    "redis": "^4.7.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.17.19",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
