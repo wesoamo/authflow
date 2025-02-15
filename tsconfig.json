@@ -5,11 +5,12 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "strict": true,
-    "checkJs": true  },
+    "checkJs": true,
     "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+  },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
